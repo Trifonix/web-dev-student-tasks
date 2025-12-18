@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Практическая работа №4-1: Таблицы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Практическая работа №4-1: Таблицы</h1>
+
+  <section>
+    <h2>1. Тригонометрическая таблица</h2>
+    <table class="trig-table">
+      <thead>
+        <tr>
+          <th>α</th>
+          <th>sin(α)</th>
+          <th>cos(α)</th>
+          <th>tg(α)</th>
+          <th>ctg(α)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0°</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td>30°</td>
+          <td>1/2</td>
+          <td>√3/2</td>
+          <td>√3/3</td>
+          <td>√3</td>
+        </tr>
+        <tr>
+          <td>45°</td>
+          <td>√2/2</td>
+          <td>√2/2</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>60°</td>
+          <td>√3/2</td>
+          <td>1/2</td>
+          <td>√3</td>
+          <td>√3/3</td>
+        </tr>
+        <tr>
+          <td>90°</td>
+          <td>1</td>
+          <td>0</td>
+          <td>–</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>180°</td>
+          <td>0</td>
+          <td>-1</td>
+          <td>0</td>
+          <td>–</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. Таблица продаж канцелярских товаров</h2>
+    <table class="sales-table">
+      <thead>
+        <tr>
+          <th>Товар</th>
+          <th>Дата</th>
+          <th>Магазин</th>
+          <th>Количество продаж</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Ручки -->
+        <tr class="product-group">
+          <td rowspan="5">Ручки</td>
+          <td rowspan="5">01.01.2016</td>
+          <td>Магазин 1</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Магазин 2</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td>Магазин 3</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Магазин 4</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>Магазин 5</td>
+          <td>10</td>
+        </tr>
+        <!-- Карандаши -->
+        <tr class="product-group">
+          <td rowspan="4">Карандаши</td>
+          <td rowspan="4">01.01.2016</td>
+          <td>Магазин 1</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Магазин 2</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>Магазин 3</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>Магазин 4</td>
+          <td>28</td>
+        </tr>
+        <!-- Фломастеры -->
+        <tr class="product-group">
+          <td rowspan="5">Фломастеры</td>
+          <td rowspan="5">01.01.2016</td>
+          <td>Магазин 1</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Магазин 2</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Магазин 3</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Магазин 4</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Магазин 5</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Таблица студентов (30% ширины)</h2>
+    <table class="student-table">
+      <thead>
+        <tr>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Курс</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Иван</td>
+          <td>Иванов</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Петр</td>
+          <td>Петров</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+
+</html>
