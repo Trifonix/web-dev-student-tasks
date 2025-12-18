@@ -1,0 +1,55 @@
+/* Задание 1: вложенные прямоугольники */
+.rectangle {
+  margin: 20px auto;
+}
+
+/* Внутренний прямоугольник - красный сплошной */
+.red {
+  border: 2px solid red;
+  padding: 10px;
+  height: 60px;
+}
+
+/* Средний прямоугольник - зелёный пунктир */
+.green {
+  border: 2px dashed green;
+  padding: 10px;
+}
+
+/* Внешний прямоугольник - синий пунктир */
+.blue {
+  border: 2px dashed blue;
+  padding: 10px;
+}
+
+/* Задание 2: абзацы с рамками */
+.full-width {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.partial-width {
+  width: 30%;
+  margin: 0 auto 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.green-border {
+  border: 3px solid green;
+}
+
+.red-border {
+  border: 3px solid red;
+}
+
+/* Задание 3: красный круг */
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 4px solid red;
+  border-radius: 50%;
+  margin: 20px auto;
+}
