@@ -1,0 +1,41 @@
+body {
+  background-color: #eee;
+}
+
+/* 1. Заголовки h1 по правому краю */
+h1 {
+  text-align: right;
+  font-size: 50px; /* дополнительное требование из второго задания */
+}
+
+/* 2. Заголовки h2 по центру */
+h2 {
+  text-align: center;
+  width: 300px; /* пункт 8 */
+  margin: 0 auto; /* центрирование внутри 300px */
+  font-size: 40px; /* второе задание */
+  font-weight: normal; /* отменяем жирность */
+}
+
+/* 3. Все таблицы шириной 500px */
+table {
+  width: 500px;
+  border-collapse: collapse; /* чтобы границы были аккуратнее */
+}
+
+/* 4. Текст th по левому краю */
+th {
+  text-align: left;
+}
+
+/* 5. Текст td по центру */
+td {
+  text-align: center;
+}
+
+/* 6. Все абзацы шириной 300px */
+p {
+  width: 300px;
+  text-align: justify; /* 7. Выравнивание по левому и правому краю */
+  font-size: 30px; /* второе задание */
+}
