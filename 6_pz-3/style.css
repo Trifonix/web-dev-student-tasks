@@ -1,0 +1,81 @@
+/* 1. Курсив в ul красный, в p зеленый */
+ul i {
+  color: red;
+}
+
+p i {
+  color: green;
+}
+
+/* 2. b, потомки li */
+li>b {
+  color: red;
+}
+
+/* 3. .eee p.bbb */
+.eee p.bbb {
+  color: red;
+}
+
+/* 4. Следующий элемент после .elem */
+.elem+li {
+  background-color: yellow;
+}
+
+/* 5. Ссылки */
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* 6. Наведение на p */
+p:hover {
+  color: blue;
+}
+
+/* 7. Кнопка */
+button:active {
+  background-color: green;
+}
+
+/* 8. Список с рамками и hover */
+.hover-list li {
+  border: 1px solid blue;
+  margin: 2px;
+  padding: 5px;
+}
+
+.hover-list li:hover {
+  background-color: green;
+}
+
+.hover-list li:hover~li {
+  background-color: red;
+}
+
+/* 9. Первое предложение красное и курсивное */
+.first-sentence {
+  color: red;
+  font-style: italic;
+}
+
+/* 10. Начало и конец абзаца */
+.start-end::before {
+  content: "Начало: ";
+  color: red;
+}
+
+.start-end::after {
+  content: " :конец!";
+  color: green;
+}
+
+/* 11. Каждая третья li красная */
+.third-red li:nth-child(3n) {
+  color: red;
+}
