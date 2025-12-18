@@ -1,0 +1,112 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f9f9f9;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 15px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Задание 1: меню с рамкой и эффектом "Новости" */
+.menu1 {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu1 li {
+  flex: 1;
+}
+
+.menu1 a {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #0074D9;
+  /* синий текст */
+  border: 1px solid #6699cc;
+  /* рамка чуть темнее синего */
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.menu1 a:hover {
+  background-color: #333;
+  /* тёмно-серый фон */
+  color: #f2f2f2;
+  /* бледно-белый текст */
+}
+
+/* Задание 2: меню с эффектом "PHOTOS" */
+.menu2 {
+  list-style: none;
+  display: flex;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  background-color: orange;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.menu2 li {
+  flex: 1;
+}
+
+.menu2 a {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #fffacd;
+  /* бледно-жёлтый */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu2 a:hover {
+  background-color: red;
+  color: #fffacd;
+}
+
+/* Задание 3: блочные ссылки */
+.block-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+}
+
+.block-links a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #0074D9;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #0074D9;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.block-links a:hover {
+  background-color: #0074D9;
+  color: white;
+}
