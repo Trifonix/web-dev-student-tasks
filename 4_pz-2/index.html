@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Задача с div</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    <h2>заголовок</h2>
+    <p>текст</p>
+    <p>текст</p>
+  </div>
+  <div>
+    <h2>заголовок</h2>
+    <p>текст</p>
+    <p>текст</p>
+  </div>
+  <div>
+    <h2>заголовок</h2>
+    <p>текст</p>
+    <p>текст</p>
+  </div>
+  <div>
+    <h2>заголовок</h2>
+    <p>текст</p>
+    <p>текст</p>
+  </div>
+
+  <h2 class="header">заголовок</h2>
+  <h2 class="header">заголовок</h2>
+  <h3 class="header">заголовок</h3>
+  <h3 class="header">заголовок</h3>
+
+  <h1>Пример селектора <code>.bbb .zzz</code></h1>
+
+  <div class="bbb">
+    <p class="zzz">Этот текст станет красным</p>
+    <span class="zzz">Этот тоже станет красным</span>
+  </div>
+
+  <div class="bbb">
+    <div>
+      <p class="zzz">Этот текст тоже выбран, так как внутри .bbb</p>
+    </div>
+  </div>
+
+  <p class="zzz">Этот текст <strong>не</strong> изменится, так как не внутри .bbb</p>
+
+  <h1>Пример селектора для классов, начинающихся на <code>top-</code></h1>
+
+  <p class="top-first">Этот абзац будет выбран селектором.</p>
+  <p class="top-second">Этот абзац тоже будет выбран.</p>
+  <p class="bottom-first">Этот абзац <strong>не</strong> будет выбран.</p>
+  <p class="top-special">Этот абзац выбран.</p>
+
+</body>
+
+</html>
